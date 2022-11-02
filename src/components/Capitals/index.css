@@ -1,0 +1,68 @@
+/* Write your CSS here */
+
+.main_container {
+  background-color: #93c5fd;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #f8fafc;
+  border-radius: 15px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 90%;
+  font-family: 'Roboto';
+}
+
+h1 {
+  color: #323f4b;
+  font-size: 25px;
+}
+
+p {
+  color: #1e293b;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+select {
+  color: #000000;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 13px;
+  padding: 10px;
+  border: 1px solid #cbd2d9;
+  outline: none;
+  border-radius: 5px;
+}
+
+span {
+  margin-left: 10px;
+  font-size: 13px;
+  color: #000000;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 40px;
+  }
+  select {
+    font-size: 18px;
+  }
+  span {
+    font-size: 18px;
+  }
+  p {
+    font-size: 35px;
+  }
+
+  .container {
+    max-width: 700px;
+  }
+}
